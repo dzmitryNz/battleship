@@ -16,6 +16,12 @@
         "nodemon": "^2.0.16"
     },
     "dependencies": {
-        "ws": "^8.8.0"
+        "ws": "^8.18.2"
+    },
+    "imports": {
+        "ws": {
+            "default": "WebSocket",
+            "WebSocketServer": "WebSocketServer"
+        }
     }
 }
